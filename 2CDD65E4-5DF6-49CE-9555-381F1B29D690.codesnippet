@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ici</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>{{}, vk::ImageType::&lt;#type#&gt;, vk::Format::&lt;#format#&gt;, {&lt;#width#&gt;, &lt;#height#&gt;, &lt;#depth#&gt;}, &lt;#mipLevels#&gt;, &lt;#layers#&gt;, vk::SampleCountFlagBits::&lt;#samples#&gt;, vk::ImageTiling::eOptimal, vk::ImageUsageFlagBits::&lt;#usage#&gt;, vk::SharingMode::eExclusive, 0, nullptr, vk::ImageLayout::&lt;#layout#&gt;}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2CDD65E4-5DF6-49CE-9555-381F1B29D690</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ImageCreateInfo</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

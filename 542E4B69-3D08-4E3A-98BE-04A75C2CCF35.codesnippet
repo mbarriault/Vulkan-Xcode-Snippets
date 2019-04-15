@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gpci</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>{{}, &lt;#count#&gt;, &lt;#shaderStages#&gt;, &lt;#&amp;vertexInputState#&gt;, &lt;#&amp;inputAssemblyState#&gt;, nullptr, &lt;#&amp;viewportState#&gt;, &lt;#&amp;rasterizationState#&gt;, &lt;#&amp;multisampleState#&gt;, nullptr, &lt;#&amp;colorBlendState#&gt;, &lt;#&amp;dynamicState#&gt;, &lt;#pipelineLayout#&gt;, &lt;#renderPass#&gt;, 0}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>542E4B69-3D08-4E3A-98BE-04A75C2CCF35</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GraphicsPipelineCreateInfo</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

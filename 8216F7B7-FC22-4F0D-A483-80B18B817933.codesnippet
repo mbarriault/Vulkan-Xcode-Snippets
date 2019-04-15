@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ic</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>{{vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {&lt;#width#&gt;, &lt;#height#&gt;, &lt;#depth#&gt;}}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8216F7B7-FC22-4F0D-A483-80B18B817933</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ImageCopy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

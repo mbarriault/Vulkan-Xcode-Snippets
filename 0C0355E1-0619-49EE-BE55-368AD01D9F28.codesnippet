@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vkad</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>const vk::AttachmentDescription &lt;#attachmentDescription#&gt;({}, format.format, vk::SampleCountFlagBits::e1, vk::AttachmentLoadOp::&lt;#loadOp#&gt;, vk::AttachmentStoreOp::&lt;#storeOp#&gt;, vk::AttachmentLoadOp::eDontCare, vk::AttachmentStoreOp::eDontCare, vk::ImageLayout::&lt;#srcLayout#&gt;, vk::ImageLayout::&lt;#dstLayout#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0C0355E1-0619-49EE-BE55-368AD01D9F28</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VK AttachmentDescription</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
