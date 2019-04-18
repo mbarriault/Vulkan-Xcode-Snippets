@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, &lt;#count#&gt;, &lt;#shaderStages#&gt;, &lt;#&amp;vertexInputState#&gt;, &lt;#&amp;inputAssemblyState#&gt;, nullptr, &lt;#&amp;viewportState#&gt;, &lt;#&amp;rasterizationState#&gt;, &lt;#&amp;multisampleState#&gt;, nullptr, &lt;#&amp;colorBlendState#&gt;, &lt;#&amp;dynamicState#&gt;, &lt;#pipelineLayout#&gt;, &lt;#renderPass#&gt;, 0}</string>
+	<string>{{}, &lt;#count#&gt;, &lt;#shaderStages#&gt;, &lt;#&amp;vertexInputState#&gt;, &lt;#&amp;inputAssemblyState#&gt;, &lt;#&amp;tessellationState#&gt;, &lt;#&amp;viewportState#&gt;, &lt;#&amp;rasterizationState#&gt;, &lt;#&amp;multisampleState#&gt;, &lt;#&amp;depthStencilState#&gt;, &lt;#&amp;colorBlendState#&gt;, &lt;#&amp;dynamicState#&gt;, &lt;#pipelineLayout#&gt;, &lt;#renderPass#&gt;, 0}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>542E4B69-3D08-4E3A-98BE-04A75C2CCF35</string>
 	<key>IDECodeSnippetLanguage</key>
