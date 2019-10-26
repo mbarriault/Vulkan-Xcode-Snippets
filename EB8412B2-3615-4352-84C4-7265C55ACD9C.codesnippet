@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpmsci</string>
+	<string>pmsci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineMultisampleStateCreateInfo multisampleState({}, vk::SampleCountFlagBits::e1, false, 0.0, nullptr, 0.0);</string>
+	<string>{{}, vk::SampleCountFlagBits::&lt;#samples#&gt;, false, 0.0, nullptr, false, false}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EB8412B2-3615-4352-84C4-7265C55ACD9C</string>
 	<key>IDECodeSnippetLanguage</key>

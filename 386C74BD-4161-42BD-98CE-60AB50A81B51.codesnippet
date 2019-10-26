@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkdii</string>
+	<string>dii</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>const vk::DescriptorImageInfo &lt;#info#&gt;(&lt;#sampler#&gt;, &lt;#imageView#&gt;, vk::ImageLayout::&lt;#layout#&gt;);</string>
+	<string>{&lt;#sampler#&gt;, &lt;#imageView#&gt;, vk::ImageLayout::&lt;#layout#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>386C74BD-4161-42BD-98CE-60AB50A81B51</string>
 	<key>IDECodeSnippetLanguage</key>

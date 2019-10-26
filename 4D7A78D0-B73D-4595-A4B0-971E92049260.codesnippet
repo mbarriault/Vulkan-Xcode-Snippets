@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkptsci</string>
+	<string>ptsci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineTessellationStateCreateInfo tessellationState({}, &lt;#points#&gt;);</string>
+	<string>{{}, &lt;#points#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4D7A78D0-B73D-4595-A4B0-971E92049260</string>
 	<key>IDECodeSnippetLanguage</key>

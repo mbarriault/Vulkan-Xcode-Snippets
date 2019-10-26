@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpcr</string>
+	<string>pcr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PushConstantRange &lt;#pushConstantRange#&gt;(vk::ShaderStageFlagBits::&lt;#shaderStage#&gt;, 0, sizeof(&lt;#type#&gt;));</string>
+	<string>{vk::ShaderStageFlagBits::&lt;#shaderStage#&gt;, 0, sizeof(&lt;#type#&gt;)}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1081DC2F-84B3-4E9D-A953-0B0946F4DAE5</string>
 	<key>IDECodeSnippetLanguage</key>

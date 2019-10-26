@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkcv</string>
+	<string>cv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::ClearValue &lt;#clearValue#&gt;(std::array&lt;float,4&gt;({0.0f, 0.0f, 0.0f, 1.0f}));</string>
+	<string>{std::array&lt;float,4&gt;({0.0f, 0.0f, 0.0f, 1.0f})}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>96A8DC40-B52D-460D-A35E-E79C774D79E4</string>
 	<key>IDECodeSnippetLanguage</key>

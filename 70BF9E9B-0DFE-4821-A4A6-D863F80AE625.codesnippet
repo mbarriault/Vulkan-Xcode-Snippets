@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpvsci</string>
+	<string>pvsci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineViewportStateCreateInfo viewportState({}, 0, nullptr, 0, nullptr);</string>
+	<string>{{}, 0, nullptr, 0, nullptr}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>70BF9E9B-0DFE-4821-A4A6-D863F80AE625</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpvisci</string>
+	<string>pvisci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineVertexInputStateCreateInfo vertexInputState({}, &lt;#count#&gt;, &lt;#bindingDescriptions#&gt;, &lt;#count#&gt;, &lt;#attributeDescriptions#&gt;);</string>
+	<string>{{}, &lt;#count#&gt;, &lt;#bindingDescriptions#&gt;, &lt;#count#&gt;, &lt;#attributeDescriptions#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92F74826-0CBA-4F44-AFE3-22DB404A3526</string>
 	<key>IDECodeSnippetLanguage</key>

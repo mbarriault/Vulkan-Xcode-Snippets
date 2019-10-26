@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpdssci</string>
+	<string>pdssci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineDepthStencilStateCreateInfo depthStencilState({}, true, true, vk::CompareOp::eLess, false, false, {}, {});</string>
+	<string>{{}, true, true, vk::CompareOp::eLess, false, false, {}, {}, 0.0, 0.0}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F4F4A46C-43C9-4C1B-94C0-664432F7684F</string>
 	<key>IDECodeSnippetLanguage</key>

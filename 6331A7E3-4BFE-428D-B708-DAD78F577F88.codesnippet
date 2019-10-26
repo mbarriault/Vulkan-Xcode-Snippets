@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkpcbsci</string>
+	<string>pcbsci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineColorBlendStateCreateInfo colorBlendState({}, false, vk::LogicOp::eClear, 1, &lt;#colorBlendAttachmentState#&gt;);</string>
+	<string>{{}, false, vk::LogicOp::eClear, &lt;#count#&gt;, &lt;#colorBlendAttachmentState#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6331A7E3-4BFE-428D-B708-DAD78F577F88</string>
 	<key>IDECodeSnippetLanguage</key>

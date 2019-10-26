@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkdbi</string>
+	<string>dbi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>const vk::DescriptorBufferInfo &lt;#info#&gt;(&lt;#buffer#&gt;, 0, VK_WHOLE_SIZE);</string>
+	<string>{&lt;#buffer#&gt;, 0, VK_WHOLE_SIZE}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EF674851-6F6A-4429-B0CF-2DAF8EAC6F1D</string>
 	<key>IDECodeSnippetLanguage</key>
