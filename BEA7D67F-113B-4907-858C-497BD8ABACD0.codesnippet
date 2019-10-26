@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vksme</string>
+	<string>cds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::SpecializationMapEntry &lt;#mapEntry#&gt;(0, 0, sizeof(&lt;#type#&gt;));</string>
+	<string>{&lt;#srcSet#&gt;, &lt;#srcBinding#&gt;, 0, &lt;#dstSet_#&gt;, &lt;#dstBinding#&gt;, 0, 1}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D3A598E9-96EE-49D3-910A-D24966130EF6</string>
+	<string>BEA7D67F-113B-4907-858C-497BD8ABACD0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>VK SpecializationMapEntry</string>
+	<string>CopyDescriptorSet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

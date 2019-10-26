@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, format.format, vk::SampleCountFlagBits::&lt;#samples#&gt;, vk::AttachmentLoadOp::&lt;#loadOp#&gt;, vk::AttachmentStoreOp::&lt;#storeOp#&gt;, vk::AttachmentLoadOp::eDontCare, vk::AttachmentStoreOp::eDontCare, vk::ImageLayout::&lt;#layout#&gt;, vk::ImageLayout::&lt;#layout#&gt;}</string>
+	<string>{{}, vk::Format::&lt;#format#&gt;, vk::SampleCountFlagBits::&lt;#samples#&gt;, vk::AttachmentLoadOp::&lt;#loadOp#&gt;, vk::AttachmentStoreOp::&lt;#storeOp#&gt;, vk::AttachmentLoadOp::eDontCare, vk::AttachmentStoreOp::eDontCare, vk::ImageLayout::&lt;#layout#&gt;, vk::ImageLayout::&lt;#layout#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4E110461-4754-4D60-A206-1D52697F3E0A</string>
 	<key>IDECodeSnippetLanguage</key>

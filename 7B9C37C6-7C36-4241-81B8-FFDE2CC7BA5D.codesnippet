@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkar</string>
+	<string>dic</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::AttachmentReference &lt;#attachmentReference#&gt;(0, vk::ImageLayout::eColorAttachmentOptimal);</string>
+	<string>{&lt;#x#&gt;, &lt;#y#&gt;, &lt;#z#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C4DF34A1-EA0E-4E49-984A-DD61C4435669</string>
+	<string>7B9C37C6-7C36-4241-81B8-FFDE2CC7BA5D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>VK AttachmentReference</string>
+	<string>DispatchIndirectCommand</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

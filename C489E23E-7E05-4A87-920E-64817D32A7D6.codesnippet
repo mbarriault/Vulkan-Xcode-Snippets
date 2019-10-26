@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vkdslb</string>
+	<string>isl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::DescriptorSetLayoutBinding &lt;#binding#&gt;(&lt;#id#&gt;, vk::DescriptorType::&lt;#type#&gt;, 1, vk::ShaderStageFlagBits::&lt;#stage#&gt;);</string>
+	<string>{vk::ImageAspectFlagBits::eColor, 0, 0, 1}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E6C98A1C-0E96-4DD4-8493-DB026E3E6080</string>
+	<string>C489E23E-7E05-4A87-920E-64817D32A7D6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>VK DescriptorSetLayoutBinding</string>
+	<string>ImageSubresourceLayers</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

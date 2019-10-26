@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{vk::ImageAspectFlagBits::eColor, 0, 0, 1}</string>
+	<string>{vk::ImageAspectFlagBits::eColor, 0, 1, 0, 1}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4FA6F2E6-F1A5-46B7-9D29-A7027E7DEE5E</string>
 	<key>IDECodeSnippetLanguage</key>

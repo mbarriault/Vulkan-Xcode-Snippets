@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{&lt;#id#&gt;, &lt;#count#&gt;*sizeof(&lt;#type#&gt;), sizeof(&lt;#type#&gt;)}</string>
+	<string>{&lt;#id#&gt;, offsetof(&lt;#class#&gt;, &lt;#member#&gt;), sizeof(&lt;#type#&gt;)}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>46E5F1E0-A6B4-420C-8640-1A89EE30CDD7</string>
 	<key>IDECodeSnippetLanguage</key>

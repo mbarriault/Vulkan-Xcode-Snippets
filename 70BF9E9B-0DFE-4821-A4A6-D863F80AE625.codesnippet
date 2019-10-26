@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineViewportStateCreateInfo viewportState({}, 1, &amp;viewport, 1, &amp;scissor);</string>
+	<string>static const vk::PipelineViewportStateCreateInfo viewportState({}, 0, nullptr, 0, nullptr);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>70BF9E9B-0DFE-4821-A4A6-D863F80AE625</string>
 	<key>IDECodeSnippetLanguage</key>

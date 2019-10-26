@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, vk::Filter::eLinear, vk::Filter::eLinear, vk::SamplerMipmapMode::eNearest, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, 0, false, 0, false, vk::CompareOp::eNever, 0, 0, vk::BorderColor::eFloatTransparentBlack, 0}</string>
+	<string>{{}, vk::Filter::eLinear, vk::Filter::eLinear, vk::SamplerMipmapMode::eNearest, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, 0, false, 0, false, vk::CompareOp::eNever, 0, 0, vk::BorderColor::eFloatTransparentBlack, false}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D0AFB6E9-073F-484B-9825-14ACBAB7FB9F</string>
 	<key>IDECodeSnippetLanguage</key>

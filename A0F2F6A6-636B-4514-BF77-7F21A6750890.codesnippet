@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, (uint32_t)&lt;#source#&gt;.size() * sizeof(uint32_t), &lt;#source#&gt;.data()}</string>
+	<string>{{}, sizeof(&lt;#source#&gt;), &lt;#source#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A0F2F6A6-636B-4514-BF77-7F21A6750890</string>
 	<key>IDECodeSnippetLanguage</key>

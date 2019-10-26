@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const vk::PipelineDynamicStateCreateInfo dynamicState({}, 2, &lt;#dynamicStates#&gt;);</string>
+	<string>static const vk::PipelineDynamicStateCreateInfo dynamicState({}, &lt;#count#&gt;, &lt;#dynamicStates#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8698E13C-6CCA-4414-B2F5-0D410C6D252C</string>
 	<key>IDECodeSnippetLanguage</key>

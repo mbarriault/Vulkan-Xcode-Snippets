@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, &lt;#renderPass#&gt;, 1, &lt;#imageView#&gt;, &lt;#width#&gt;, &lt;#height#&gt;, 1}</string>
+	<string>{{}, &lt;#renderPass#&gt;, &lt;#count#&gt;, &lt;#imageViews#&gt;, &lt;#width#&gt;, &lt;#height#&gt;, 1}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>71C50C5E-D548-40EF-A00A-E95EAA9AD9E9</string>
 	<key>IDECodeSnippetLanguage</key>

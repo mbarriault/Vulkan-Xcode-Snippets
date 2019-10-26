@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{vk::AccessFlagBits::&lt;#src#&gt;, vk::AccessFlagBits::&lt;#dst#&gt;, queueIndex, queueIndex, &lt;#buffer#&gt;, 0, VK_WHOLE_SIZE}</string>
+	<string>{vk::AccessFlagBits::&lt;#src#&gt;, vk::AccessFlagBits::&lt;#dst#&gt;, VK_QUEUE_FAMILY_IGNORED, VK_QUEUE_FAMILY_IGNORED, &lt;#buffer#&gt;, 0, VK_WHOLE_SIZE}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>392D5314-9B65-4AAB-8F91-1A8FEA62A301</string>
 	<key>IDECodeSnippetLanguage</key>
