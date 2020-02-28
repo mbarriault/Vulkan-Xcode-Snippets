@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, &lt;#surface#&gt;, &lt;#count#&gt;, &lt;#format#&gt;, &lt;#colorSpace#&gt;, &lt;#extent#&gt;, 1, vk::ImageUsageFlagBits::eColorAttachment | vk::ImageUsageFlagBits::eTransferDst, vk::SharingMode::eExclusive, 0, nullptr, vk::SurfaceTransformFlagBitsKHR::eIdentity, vk::CompositeAlphaFlagBitsKHR::eOpaque, vk::PresentModeKHR::&lt;#mode#&gt;, true, nullptr}</string>
+	<string>{{}, &lt;#surface#&gt;, &lt;#count#&gt;, &lt;#format#&gt;, &lt;#colorSpace#&gt;, &lt;#extent#&gt;, 1, vk::ImageUsageFlagBits::eColorAttachment | vk::ImageUsageFlagBits::eTransferDst | vk::ImageUsageFlagBits::eStorage, vk::SharingMode::eExclusive, 0, nullptr, vk::SurfaceTransformFlagBitsKHR::eIdentity, vk::CompositeAlphaFlagBitsKHR::eOpaque, vk::PresentModeKHR::&lt;#mode#&gt;, true, nullptr}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>36471366-D91C-4364-A885-262BA0DCA9CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SwapchainCreateInfoKHR</string>
 	<key>IDECodeSnippetUserSnippet</key>

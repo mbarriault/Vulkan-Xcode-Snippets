@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{{}, vk::PipelineBindPoint::eGraphics, &lt;#count#&gt;, &lt;#inputAttachments#&gt;, &lt;#count#&gt;, &lt;#colorAttachments#&gt;, nullptr, &lt;#depthAttachment#&gt;, 0, nullptr}</string>
+	<string>{{}, vk::PipelineBindPoint::eGraphics, &lt;#count#&gt;, &lt;#inputAttachments#&gt;, &lt;#count#&gt;, &lt;#colorAttachments#&gt;, &lt;#resolveAttachment#&gt;, &lt;#depthAttachment#&gt;, 0, nullptr}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F9CD8D28-3836-4682-9D70-A6F80214A9BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>SubpassDescription</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{0, &lt;#rowLength#&gt;, &lt;#imageHeight#&gt;, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, vk::Offset3D(0, 0, 0), vk::Extent3D(&lt;#width#&gt;, &lt;#height#&gt;, &lt;#depth#&gt;)}</string>
+	<string>{0, &lt;#rowLength#&gt;, &lt;#imageHeight#&gt;, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {&lt;#width#&gt;, &lt;#height#&gt;, &lt;#depth#&gt;}}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE2772C2-BB6E-4DC3-91AB-4F9CA75C549A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>BufferImageCopy</string>
 	<key>IDECodeSnippetUserSnippet</key>

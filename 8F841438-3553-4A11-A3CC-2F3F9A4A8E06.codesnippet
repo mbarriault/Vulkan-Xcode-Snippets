@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{vk::CommandBufferUsageFlagBits::&lt;#usage#&gt;}</string>
+	<string>{vk::CommandBufferUsageFlagBits::&lt;#usage#&gt;, nullptr}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8F841438-3553-4A11-A3CC-2F3F9A4A8E06</string>
 	<key>IDECodeSnippetLanguage</key>

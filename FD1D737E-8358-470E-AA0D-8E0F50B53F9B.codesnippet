@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{&lt;#binding#&gt;, vk::DescriptorType::&lt;#type#&gt;, 1, vk::ShaderStageFlagBits::&lt;#stage#&gt;}</string>
+	<string>{&lt;#binding#&gt;, vk::DescriptorType::&lt;#type#&gt;, 1, vk::ShaderStageFlagBits::&lt;#stage#&gt;, nullptr}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FD1D737E-8358-470E-AA0D-8E0F50B53F9B</string>
 	<key>IDECodeSnippetLanguage</key>
