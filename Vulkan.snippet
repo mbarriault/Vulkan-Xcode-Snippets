@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DispatchIndirectCommand</Title>
+      <Shortcut>dic</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$x$, $y$, $z$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>x</ID>
+          <Default>x</Default>
+        </Literal>
+        <Literal>
+          <ID>y</ID>
+          <Default>y</Default>
+        </Literal>
+        <Literal>
+          <ID>z</ID>
+          <Default>z</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DrawIndirectCommand</Title>
+      <Shortcut>dic</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$vertexCount$, $instanceCount$, 0, 0}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>vertexCount</ID>
+          <Default>vertexCount</Default>
+        </Literal>
+        <Literal>
+          <ID>instanceCount</ID>
+          <Default>instanceCount</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VertexInputBindingDescription</Title>
+      <Shortcut>vibd</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$binding$, $stride$, vk::VertexInputRate::$rate$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>binding</ID>
+          <Default>binding</Default>
+        </Literal>
+        <Literal>
+          <ID>stride</ID>
+          <Default>stride</Default>
+        </Literal>
+        <Literal>
+          <ID>rate</ID>
+          <Default>rate</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>uint32</Title>
+      <Shortcut>u32</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[uint32_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageMemoryBarrier</Title>
+      <Shortcut>imb</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::AccessFlagBits::$src$, vk::AccessFlagBits::$dst$, vk::ImageLayout::$src$, vk::ImageLayout::$dst$, VK_QUEUE_FAMILY_IGNORED, VK_QUEUE_FAMILY_IGNORED, $image$, {vk::ImageAspectFlagBits::eColor, 0, 1, 0, 1}}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>src</ID>
+          <Default>src</Default>
+        </Literal>
+        <Literal>
+          <ID>dst</ID>
+          <Default>dst</Default>
+        </Literal>
+        <Literal>
+          <ID>src</ID>
+          <Default>src</Default>
+        </Literal>
+        <Literal>
+          <ID>dst</ID>
+          <Default>dst</Default>
+        </Literal>
+        <Literal>
+          <ID>image</ID>
+          <Default>image</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>RenderPassCreateInfo</Title>
+      <Shortcut>rpci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $attachmentDescriptions$, $count$, $subpassDescriptions$, $count$, $subpassDependencies$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>attachmentDescriptions</ID>
+          <Default>attachmentDescriptions</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>subpassDescriptions</ID>
+          <Default>subpassDescriptions</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>subpassDependencies</ID>
+          <Default>subpassDependencies</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PushConstantRange</Title>
+      <Shortcut>pcr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::ShaderStageFlagBits::$stage$, 0, sizeof($type$)}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>stage</ID>
+          <Default>stage</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SubpassDependency</Title>
+      <Shortcut>sd</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$srcSubpass$, $dstSubpass$, vk::PipelineStageFlagBits::eColorAttachmentOutput, vk::PipelineStageFlagBits::eColorAttachmentOutput, vk::AccessFlagBits::eColorAttachmentWrite, vk::AccessFlagBits::eColorAttachmentWrite, vk::DependencyFlagBits::eByRegion}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>srcSubpass</ID>
+          <Default>srcSubpass</Default>
+        </Literal>
+        <Literal>
+          <ID>dstSubpass</ID>
+          <Default>dstSubpass</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MappedMemoryRange</Title>
+      <Shortcut>mmr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$deviceMemory$, 0, VK_WHOLE_SIZE}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>deviceMemory</ID>
+          <Default>deviceMemory</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>uint16</Title>
+      <Shortcut>u16</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[uint16_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineRasterizationStateCreateInfo</Title>
+      <Shortcut>prsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, false, false, vk::PolygonMode::eFill, vk::CullModeFlagBits::eBack, vk::FrontFace::eClockwise, false, 0.0, 0.0, 0.0, 1.0}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>uint8</Title>
+      <Shortcut>u8</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[uint8_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageCopy</Title>
+      <Shortcut>ic</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {$width$, $height$, $depth$}}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>depth</ID>
+          <Default>depth</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineVertexInputStateCreateInfo</Title>
+      <Shortcut>pvisci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $bindingDescriptions$, $count$, $attributeDescriptions$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>bindingDescriptions</ID>
+          <Default>bindingDescriptions</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>attributeDescriptions</ID>
+          <Default>attributeDescriptions</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SwapchainCreateInfoKHR</Title>
+      <Shortcut>scikhr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $surface$, $count$, $format$, $colorSpace$, $extent$, 1, vk::ImageUsageFlagBits::eColorAttachment | vk::ImageUsageFlagBits::eTransferDst | vk::ImageUsageFlagBits::eStorage, vk::SharingMode::eExclusive, 0, nullptr, vk::SurfaceTransformFlagBitsKHR::eIdentity, vk::CompositeAlphaFlagBitsKHR::eOpaque, vk::PresentModeKHR::$mode$, true, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>surface</ID>
+          <Default>surface</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <Default>format</Default>
+        </Literal>
+        <Literal>
+          <ID>colorSpace</ID>
+          <Default>colorSpace</Default>
+        </Literal>
+        <Literal>
+          <ID>extent</ID>
+          <Default>extent</Default>
+        </Literal>
+        <Literal>
+          <ID>mode</ID>
+          <Default>mode</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>AttachmentReference</Title>
+      <Shortcut>ar</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$attachment$, vk::ImageLayout::$layout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>attachment</ID>
+          <Default>attachment</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MemoryAllocateInfo</Title>
+      <Shortcut>mai</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$size$, $type$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>size</ID>
+          <Default>size</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PipelineShaderStageCreateInfo</Title>
+      <Shortcut>pssci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::ShaderStageFlagBits::$stage$, $shaderModule$, "main", $specializationInfo$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>stage</ID>
+          <Default>stage</Default>
+        </Literal>
+        <Literal>
+          <ID>shaderModule</ID>
+          <Default>shaderModule</Default>
+        </Literal>
+        <Literal>
+          <ID>specializationInfo</ID>
+          <Default>specializationInfo</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DeviceCreateInfo</Title>
+      <Shortcut>dci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $queues$, 0, nullptr, $count$, $extensions$, $features$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>queues</ID>
+          <Default>queues</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>extensions</ID>
+          <Default>extensions</Default>
+        </Literal>
+        <Literal>
+          <ID>features</ID>
+          <Default>features</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineColorBlendStateCreateInfo</Title>
+      <Shortcut>pcbsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, false, vk::LogicOp::eClear, $count$, $colorBlendAttachmentState$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>colorBlendAttachmentState</ID>
+          <Default>colorBlendAttachmentState</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageSubresourceRange</Title>
+      <Shortcut>isr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::ImageAspectFlagBits::eColor, 0, 1, 0, 1}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorPoolSize</Title>
+      <Shortcut>dps</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::DescriptorType::$type$, $count$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorSetLayoutBinding</Title>
+      <Shortcut>dslb</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$binding$, vk::DescriptorType::$type$, 1, vk::ShaderStageFlagBits::$stage$, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>binding</ID>
+          <Default>binding</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+        <Literal>
+          <ID>stage</ID>
+          <Default>stage</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineInputAssemblyStateCreateInfo</Title>
+      <Shortcut>piasci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::PrimitiveTopology::$topology$, false}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>topology</ID>
+          <Default>topology</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PushConstantRange</Title>
+      <Shortcut>pcr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::ShaderStageFlagBits::$shaderStage$, 0, sizeof($type$)}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>shaderStage</ID>
+          <Default>shaderStage</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>FramebufferCreateInfo</Title>
+      <Shortcut>fci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $renderPass$, $count$, $imageViews$, $width$, $height$, 1}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>renderPass</ID>
+          <Default>renderPass</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>imageViews</ID>
+          <Default>imageViews</Default>
+        </Literal>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SpecializationInfo</Title>
+      <Shortcut>si</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$count$, $mapEntries$, $size$, reinterpret_cast<const void*>($constants$)}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>mapEntries</ID>
+          <Default>mapEntries</Default>
+        </Literal>
+        <Literal>
+          <ID>size</ID>
+          <Default>size</Default>
+        </Literal>
+        <Literal>
+          <ID>constants</ID>
+          <Default>constants</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SpecializationMapEntry</Title>
+      <Shortcut>sme</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$id$, offsetof($class$, $member$), sizeof($type$)}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>id</ID>
+          <Default>id</Default>
+        </Literal>
+        <Literal>
+          <ID>class</ID>
+          <Default>class</Default>
+        </Literal>
+        <Literal>
+          <ID>member</ID>
+          <Default>member</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineDynamicStateCreateInfo</Title>
+      <Shortcut>pdsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $dynamicStates$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>dynamicStates</ID>
+          <Default>dynamicStates</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SubmitInfo</Title>
+      <Shortcut>si</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$count$, $waitSemaphores$, $stageflags$, $count$, $commandBuffers$, $count$, $signalSemaphores$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>waitSemaphores</ID>
+          <Default>waitSemaphores</Default>
+        </Literal>
+        <Literal>
+          <ID>stageflags</ID>
+          <Default>stageflags</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>commandBuffers</ID>
+          <Default>commandBuffers</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>signalSemaphores</ID>
+          <Default>signalSemaphores</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineMultisampleStateCreateInfo</Title>
+      <Shortcut>pmsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::SampleCountFlagBits::$samples$, false, 0.0, nullptr, false, false}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>samples</ID>
+          <Default>samples</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorPoolCreateInfo</Title>
+      <Shortcut>dpci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::DescriptorPoolCreateFlagBits::eFreeDescriptorSet, $sets$, $count$, $descriptorPoolSizes$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>sets</ID>
+          <Default>sets</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorPoolSizes</ID>
+          <Default>descriptorPoolSizes</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>RenderPassBeginInfo</Title>
+      <Shortcut>rpbi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$renderPass$, $framebuffer$, $scissor$, $count$, $clearValues$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>renderPass</ID>
+          <Default>renderPass</Default>
+        </Literal>
+        <Literal>
+          <ID>framebuffer</ID>
+          <Default>framebuffer</Default>
+        </Literal>
+        <Literal>
+          <ID>scissor</ID>
+          <Default>scissor</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>clearValues</ID>
+          <Default>clearValues</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageViewCreateInfo</Title>
+      <Shortcut>ivci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $image$, vk::ImageViewType::$type$, vk::Format::$format$, {}, {vk::ImageAspectFlagBits::eColor, 0, 1, 0, 1}}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>image</ID>
+          <Default>image</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <Default>format</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MemoryBarrier</Title>
+      <Shortcut>mb</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::AccessFlagBits::$src$, vk::AccessFlagBits::$dst$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>src</ID>
+          <Default>src</Default>
+        </Literal>
+        <Literal>
+          <ID>dst</ID>
+          <Default>dst</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK ClearValue</Title>
+      <Shortcut>cv</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{std::array<float,4>({0.0f, 0.0f, 0.0f, 1.0f})}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorImageInfo</Title>
+      <Shortcut>dii</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$sampler$, $imageView$, vk::ImageLayout::$layout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>sampler</ID>
+          <Default>sampler</Default>
+        </Literal>
+        <Literal>
+          <ID>imageView</ID>
+          <Default>imageView</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>BufferCopy</Title>
+      <Shortcut>bc</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{0, 0, $size$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>size</ID>
+          <Default>size</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>GraphicsPipelineCreateInfo</Title>
+      <Shortcut>gpci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $shaderStages$, <#&vertexInputState#>, <#&inputAssemblyState#>, <#&tessellationState#>, <#&viewportState#>, <#&rasterizationState#>, <#&multisampleState#>, <#&depthStencilState#>, <#&colorBlendState#>, <#&dynamicState#>, $pipelineLayout$, $renderPass$, 0}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>shaderStages</ID>
+          <Default>shaderStages</Default>
+        </Literal>
+        <Literal>
+          <ID>pipelineLayout</ID>
+          <Default>pipelineLayout</Default>
+        </Literal>
+        <Literal>
+          <ID>renderPass</ID>
+          <Default>renderPass</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SubpassDescription</Title>
+      <Shortcut>sd</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::PipelineBindPoint::eGraphics, $count$, $inputAttachments$, $count$, $colorAttachments$, $resolveAttachment$, $depthAttachment$, 0, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>inputAttachments</ID>
+          <Default>inputAttachments</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>colorAttachments</ID>
+          <Default>colorAttachments</Default>
+        </Literal>
+        <Literal>
+          <ID>resolveAttachment</ID>
+          <Default>resolveAttachment</Default>
+        </Literal>
+        <Literal>
+          <ID>depthAttachment</ID>
+          <Default>depthAttachment</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>BufferImageCopy</Title>
+      <Shortcut>bic</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{0, $rowLength$, $imageHeight$, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {0, 0, 0}, {$width$, $height$, $depth$}}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>rowLength</ID>
+          <Default>rowLength</Default>
+        </Literal>
+        <Literal>
+          <ID>imageHeight</ID>
+          <Default>imageHeight</Default>
+        </Literal>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>depth</ID>
+          <Default>depth</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>SamplerCreateInfo</Title>
+      <Shortcut>sci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::Filter::eLinear, vk::Filter::eLinear, vk::SamplerMipmapMode::eNearest, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, vk::SamplerAddressMode::eClampToBorder, 0, false, 0, false, vk::CompareOp::eNever, 0, 0, vk::BorderColor::eFloatTransparentBlack, false}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK DescriptorImageInfo</Title>
+      <Shortcut>dii</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$sampler$, $imageView$, vk::ImageLayout::$layout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>sampler</ID>
+          <Default>sampler</Default>
+        </Literal>
+        <Literal>
+          <ID>imageView</ID>
+          <Default>imageView</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ShaderModuleCreateInfo</Title>
+      <Shortcut>smci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, sizeof($source$), $source$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>source</ID>
+          <Default>source</Default>
+        </Literal>
+        <Literal>
+          <ID>source</ID>
+          <Default>source</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DeviceQueueCreateInfo</Title>
+      <Shortcut>dqci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $index$, $count$, $priority$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>index</ID>
+          <Default>index</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>priority</ID>
+          <Default>priority</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>BufferMemoryBarrier</Title>
+      <Shortcut>bmb</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::AccessFlagBits::$src$, vk::AccessFlagBits::$dst$, VK_QUEUE_FAMILY_IGNORED, VK_QUEUE_FAMILY_IGNORED, $buffer$, 0, VK_WHOLE_SIZE}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>src</ID>
+          <Default>src</Default>
+        </Literal>
+        <Literal>
+          <ID>dst</ID>
+          <Default>dst</Default>
+        </Literal>
+        <Literal>
+          <ID>buffer</ID>
+          <Default>buffer</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineTessellationStateCreateInfo</Title>
+      <Shortcut>ptsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $points$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>points</ID>
+          <Default>points</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ComputePipelineCreateInfo</Title>
+      <Shortcut>cpci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, {{}, vk::ShaderStageFlagBits::eCompute, $shaderModule$, "main", $specializationInfo$}, $pipelineLayout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>shaderModule</ID>
+          <Default>shaderModule</Default>
+        </Literal>
+        <Literal>
+          <ID>specializationInfo</ID>
+          <Default>specializationInfo</Default>
+        </Literal>
+        <Literal>
+          <ID>pipelineLayout</ID>
+          <Default>pipelineLayout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageSubresourceLayers</Title>
+      <Shortcut>isl</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::ImageAspectFlagBits::eColor, 0, 0, 1}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VertexInputAttributeDescription</Title>
+      <Shortcut>viad</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$location$, $binding$, vk::Format::$format$, $offset$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>location</ID>
+          <Default>location</Default>
+        </Literal>
+        <Literal>
+          <ID>binding</ID>
+          <Default>binding</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <Default>format</Default>
+        </Literal>
+        <Literal>
+          <ID>offset</ID>
+          <Default>offset</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ClearRect</Title>
+      <Shortcut>cr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{$width$, $height$}, $baseLayer$, $layerCount$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>baseLayer</ID>
+          <Default>baseLayer</Default>
+        </Literal>
+        <Literal>
+          <ID>layerCount</ID>
+          <Default>layerCount</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>int16</Title>
+      <Shortcut>i16</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[int16_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineViewportStateCreateInfo</Title>
+      <Shortcut>pvsci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, 0, nullptr, 0, nullptr}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ClearAttachment</Title>
+      <Shortcut>ca</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$aspectMask$, $colorAttachment$, $clearValue$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>aspectMask</ID>
+          <Default>aspectMask</Default>
+        </Literal>
+        <Literal>
+          <ID>colorAttachment</ID>
+          <Default>colorAttachment</Default>
+        </Literal>
+        <Literal>
+          <ID>clearValue</ID>
+          <Default>clearValue</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK DescriptorBufferInfo</Title>
+      <Shortcut>dbi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$buffer$, 0, VK_WHOLE_SIZE}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>buffer</ID>
+          <Default>buffer</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CopyDescriptorSet</Title>
+      <Shortcut>cds</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$srcSet$, $srcBinding$, 0, $dstSet_$, $dstBinding$, 0, 1}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>srcSet</ID>
+          <Default>srcSet</Default>
+        </Literal>
+        <Literal>
+          <ID>srcBinding</ID>
+          <Default>srcBinding</Default>
+        </Literal>
+        <Literal>
+          <ID>dstSet_</ID>
+          <Default>dstSet_</Default>
+        </Literal>
+        <Literal>
+          <ID>dstBinding</ID>
+          <Default>dstBinding</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorBufferInfo</Title>
+      <Shortcut>dbi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$buffer$, 0, VK_WHOLE_SIZE}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>buffer</ID>
+          <Default>buffer</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>WriteDescriptorSet</Title>
+      <Shortcut>wds</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$set$, $binding$, 0, 1, vk::DescriptorType::$type$, $descriptorImageInfo$, $descriptorBufferInfo$, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>set</ID>
+          <Default>set</Default>
+        </Literal>
+        <Literal>
+          <ID>binding</ID>
+          <Default>binding</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorImageInfo</ID>
+          <Default>descriptorImageInfo</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorBufferInfo</ID>
+          <Default>descriptorBufferInfo</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>int8</Title>
+      <Shortcut>i8</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[int8_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>AttachmentDescription</Title>
+      <Shortcut>ad</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::Format::$format$, vk::SampleCountFlagBits::$samples$, vk::AttachmentLoadOp::$loadOp$, vk::AttachmentStoreOp::$storeOp$, vk::AttachmentLoadOp::eDontCare, vk::AttachmentStoreOp::eDontCare, vk::ImageLayout::$layout$, vk::ImageLayout::$layout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>format</ID>
+          <Default>format</Default>
+        </Literal>
+        <Literal>
+          <ID>samples</ID>
+          <Default>samples</Default>
+        </Literal>
+        <Literal>
+          <ID>loadOp</ID>
+          <Default>loadOp</Default>
+        </Literal>
+        <Literal>
+          <ID>storeOp</ID>
+          <Default>storeOp</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CommandBufferAllocateInfo</Title>
+      <Shortcut>cbai</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$commandPool$, vk::CommandBufferLevel::$level$, $count$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>commandPool</ID>
+          <Default>commandPool</Default>
+        </Literal>
+        <Literal>
+          <ID>level</ID>
+          <Default>level</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageBlit</Title>
+      <Shortcut>ib</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {vk::Offset3D(0, 0, 0), vk::Offset3D($width$, $height$, $depth$)}, {vk::ImageAspectFlagBits::eColor, 0, 0, 1}, {vk::Offset3D(0, 0, 0), vk::Offset3D($width$, $height$, $depth$)}}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>depth</ID>
+          <Default>depth</Default>
+        </Literal>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>depth</ID>
+          <Default>depth</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>int32</Title>
+      <Shortcut>i32</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[int32_t]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PipelineColorBlendAttachmentState</Title>
+      <Shortcut>pcbas</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{false, vk::BlendFactor::eOne, vk::BlendFactor::eZero, vk::BlendOp::eAdd, vk::BlendFactor::eOne, vk::BlendFactor::eZero, vk::BlendOp::eAdd, vk::ColorComponentFlagBits::eR | vk::ColorComponentFlagBits::eG | vk::ColorComponentFlagBits::eB | vk::ColorComponentFlagBits::eA}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CommandBufferBeginInfo</Title>
+      <Shortcut>cbbi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{vk::CommandBufferUsageFlagBits::$usage$, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>usage</ID>
+          <Default>usage</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ImageCreateInfo</Title>
+      <Shortcut>ici</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, vk::ImageType::$type$, vk::Format::$format$, {$width$, $height$, $depth$}, $mipLevels$, $layers$, vk::SampleCountFlagBits::$samples$, vk::ImageTiling::eOptimal, vk::ImageUsageFlagBits::$usage$, vk::SharingMode::eExclusive, 0, nullptr, vk::ImageLayout::$layout$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <Default>type</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <Default>format</Default>
+        </Literal>
+        <Literal>
+          <ID>width</ID>
+          <Default>width</Default>
+        </Literal>
+        <Literal>
+          <ID>height</ID>
+          <Default>height</Default>
+        </Literal>
+        <Literal>
+          <ID>depth</ID>
+          <Default>depth</Default>
+        </Literal>
+        <Literal>
+          <ID>mipLevels</ID>
+          <Default>mipLevels</Default>
+        </Literal>
+        <Literal>
+          <ID>layers</ID>
+          <Default>layers</Default>
+        </Literal>
+        <Literal>
+          <ID>samples</ID>
+          <Default>samples</Default>
+        </Literal>
+        <Literal>
+          <ID>usage</ID>
+          <Default>usage</Default>
+        </Literal>
+        <Literal>
+          <ID>layout</ID>
+          <Default>layout</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorSetAllocateInfo</Title>
+      <Shortcut>dsai</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$descriptorPool$, $count$, $descriptorSetLayouts$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>descriptorPool</ID>
+          <Default>descriptorPool</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorSetLayouts</ID>
+          <Default>descriptorSetLayouts</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ClearColorValue</Title>
+      <Shortcut>ccv</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{std::array<float,4>({0.0f, 0.0f, 0.0f, 1.0f})}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>BufferCreateInfo</Title>
+      <Shortcut>bci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $size$, vk::BufferUsageFlagBits::$usage$, vk::SharingMode::eExclusive, 0, nullptr}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>size</ID>
+          <Default>size</Default>
+        </Literal>
+        <Literal>
+          <ID>usage</ID>
+          <Default>usage</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>InstanceCreateInfo</Title>
+      <Shortcut>ici</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, <#&appInfo#>, $count$, $layers$, $count$, $extensions$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>layers</ID>
+          <Default>layers</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>extensions</ID>
+          <Default>extensions</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PipelineLayoutCreateInfo</Title>
+      <Shortcut>plci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $descriptorSetLayouts$, $count$, $pushConstantRanges$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorSetLayouts</ID>
+          <Default>descriptorSetLayouts</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>pushConstantRanges</ID>
+          <Default>pushConstantRanges</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>DescriptorSetLayoutCreateInfo</Title>
+      <Shortcut>dslci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, $count$, $descriptorSetLayoutBindings$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>descriptorSetLayoutBindings</ID>
+          <Default>descriptorSetLayoutBindings</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PresentInfoKHR</Title>
+      <Shortcut>pikhr</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{$count$, $semaphores$, $count$, $swapchains$, $index$}]]></Code>
+      <Declarations>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>semaphores</ID>
+          <Default>semaphores</Default>
+        </Literal>
+        <Literal>
+          <ID>count</ID>
+          <Default>count</Default>
+        </Literal>
+        <Literal>
+          <ID>swapchains</ID>
+          <Default>swapchains</Default>
+        </Literal>
+        <Literal>
+          <ID>index</ID>
+          <Default>index</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VK PipelineDepthStencilStateCreateInfo</Title>
+      <Shortcut>pdssci</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP"><![CDATA[{{}, true, true, vk::CompareOp::eLess, false, false, {}, {}, 0.0, 0.0}]]></Code>
+      <Declarations/>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
